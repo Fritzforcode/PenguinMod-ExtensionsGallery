@@ -1,0 +1,17 @@
+{
+    "name": "Gravity Simulation",
+    "description": "Simulate gravitational forces and movement between objects.",
+    "blocks": [
+        {
+            "opcode": "calculateGravity",
+            "blockType": "reporter",
+            "text": "gravity force between mass1 [MASS1] kg and mass2 [MASS2] kg at distance [DISTANCE] meters"
+        },
+        {
+            "opcode": "moveObject",
+            "blockType": "reporter",
+            "text": "move object with mass [MASS] kg with force [FORCE] N over [TIME] seconds"
+        }
+    ]
+}
+
